@@ -44,6 +44,8 @@ So, where to get one?
 
 ##### Four bigger Pads in the middle  #####
 
+from right to left(IR transceiver):
+
 1 - PE0 (RxD0) (CPU pin 2)
 2 - PE1 (RxD0) (CPU pin 3)
 3 - PG0 (WR-)  (CPU pin 51)
