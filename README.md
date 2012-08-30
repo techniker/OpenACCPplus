@@ -42,14 +42,33 @@ So, where to get one?
 
 #### Bottom PCB (IR facing right)  ####
 
-##### Four bigger Pads in the middle  #####
+##### Four small pads next to eight pads on top of the PCB #####
+ISP Pinout:
+1 2 3 4   X X X X X X X X
 
+1 - VCC
+2 - RST
+3 - MOSI (CPU pin 21)
+4 - MISO (CPU pin 22)
+
+
+##### Four bigger pads in the middle (above)  #####
+(Serial)
 from right to left(IR transceiver):
 
 1 - PE0 (RxD0) (CPU pin 2)
-2 - PE1 (RxD0) (CPU pin 3)
+2 - PE1 (TxD0) (CPU pin 3)
 3 - PG0 (WR-)  (CPU pin 51)
 4 - AVCC/(RST-)(CPU pin 100/30)
+
+##### Four bigger pads in the middle (below) #####
+
+1 - GND
+2 - GND
+3 - VCC
+4 - VCC
+
+#####   #####
 
 
 !!Disclaimer!!
